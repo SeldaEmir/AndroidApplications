@@ -240,8 +240,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void showList() {
-        ArrayAdapter arrayAdapter=new ArrayAdapter(MainActivity.this,
-               R.layout.customtext,R.id.textViewMy,processList);
+        ArrayAdapter arrayAdapter=new ArrayAdapter(MainActivity.this, R.layout.customtext,R.id.textViewMy,processList);
         listView.setAdapter(arrayAdapter);
 
     }
@@ -304,6 +303,37 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         else if(s.equals("log")){
             editTextScient.setText(String.valueOf(Math.log(Double.valueOf(editTextScient.getText().toString()))));
+        }
+        else if(s.equals("tan")){
+            editTextScient.setText(String.valueOf(Math.tan(Double.valueOf(editTextScient.getText().toString()))));
+        }
+        else if(s.equals("pow")){
+            editTextScient.setText(String.valueOf(Math.pow(Double.valueOf(editTextScient.getText().toString()),2)));
+        }
+        else if(s.equals("+/-")){
+            if(!editTextScient.getText().toString().startsWith("-")){
+                editTextScient.setText("-"+editTextScient.getText().toString());
+            }
+            else{
+                editTextScient.setText(editTextScient.getText().toString().substring(1));
+            }
+        }
+        else if(s.equals("back")){
+            if(!editTextScient.getText().toString().equals("")){
+                editTextScient.setText(editTextScient.getText().toString().substring(0,editTextScient.getText().toString().length()-1));
+            }
+        }
+        else if(s.equals("C")){
+            editTextScient.setText("");
+        }
+        else if(s.equals(",")){
+            if(!editTextScient.getText().toString().equals("")){
+                if(editTextScient.getText().toString().contains(",")==false){
+                    editTextScient.setText(editTextScient.getText().toString()+",");
+                }
+            }
+            else
+                editTextScient.setText("0,");
         }
         else
             Toast.makeText(this, "henüz tanımlanmayan işlem girdiniz", Toast.LENGTH_SHORT).show();
