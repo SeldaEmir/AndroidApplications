@@ -1,6 +1,7 @@
 package com.example.selda.scientificcalculator;
 
-import android.content.DialogInterface;
+
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -9,9 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Toast;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -85,10 +84,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         });
 
     }
-
-
-
-
 
 
 
@@ -342,5 +337,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void rakamClick(View view) {
         editTextScient.setText(editTextScient.getText().toString()+((Button) view).getText().toString());
 
+    }
+
+    public void backToBasic(View view) {
+        Intent intent = new Intent (this, MainActivity.class);
+        startActivity(intent);
+    }
+
+    public void ToScientific(View view) {
+        scientificCalc();
     }
 }
