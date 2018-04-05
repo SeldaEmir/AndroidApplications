@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.serifgungor.customlist.MainActivity"
+    tools:context="com.example.selda.customlist.MainActivity"
     tools:showIn="@layout/activity_main"
     tools:layout_editor_absoluteY="81dp"
     tools:layout_editor_absoluteX="0dp">
@@ -17,7 +17,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text=""
-        android:hint="isim girin"
+        android:hint="Name"
         tools:layout_constraintTop_creator="1"
         android:layout_marginStart="3dp"
         android:layout_marginTop="2dp"
@@ -32,7 +32,7 @@
         android:ems="10"
         android:inputType="number"
         android:text=""
-        android:hint="yaşını girin"
+        android:hint="Age"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         app:layout_constraintRight_toRightOf="@+id/editTextName"
@@ -47,7 +47,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text=""
-        android:hint="memleketini girin"
+        android:hint="Country"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         app:layout_constraintRight_toRightOf="@+id/editTextAge"
@@ -68,13 +68,13 @@
         android:id="@+id/radioButtonMale"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="male"
+        android:text="Male"
          />
     <RadioButton
         android:id="@+id/radioButtonFemale"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="female" />
+        android:text="Female" />
 </RadioGroup>
 
     <Spinner
@@ -108,7 +108,7 @@
         android:id="@+id/checkBoxGraduated"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lisans Mezunu"
+        android:text="Graduated ?"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintBottom_creator="1"

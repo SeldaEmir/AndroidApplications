@@ -1,8 +1,6 @@
 package com.example.selda.customlist;
 
-/**
- * Created by Lab08-ogretmen on 5.04.2018.
- */
+
 
 public class PersonModel {
     String gender;

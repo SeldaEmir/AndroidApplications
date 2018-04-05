@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     String snackMessage="";
-    String strArrTeams[]={"FENERBAHÇE","cincon","beşiktaş","karşı yaka","göztepe"};
+    String strArrTeams[]={"Fenerbahce","Galatasaray","Karsiyaka","Goztepe"};
     List<PersonModel> personModelList;
     
 
@@ -89,10 +89,10 @@ public class MainActivity extends AppCompatActivity {
             personModelList.add(new PersonModel(gender,editTextName.getText().toString(),editTextAge.getText().toString(),
                 stringSelectedTeam,editTextHomeTown.getText().toString(),graduated));
             showList();
-            snackMessage="kişi eklendi";
+            snackMessage="Person added";
         }
         else
-            snackMessage="cinsiyeti ve ismi belirt";
+            snackMessage="Please provide name and gender.";
     }
 
     private void showList() {

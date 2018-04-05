@@ -11,9 +11,6 @@ import android.widget.TextView;
 
 import java.util.List;
 
-/**
- * Created by Lab08-ogretmen on 5.04.2018.
- */
 
 public class CustomAdapter extends BaseAdapter {
 
@@ -62,15 +59,13 @@ public class CustomAdapter extends BaseAdapter {
         else
             imageViewGender.setImageResource(R.drawable.erkek);
 
-        if (mPersonModelList.get(i).getFunTeam().equalsIgnoreCase("fenerbahçe"))
+        if (mPersonModelList.get(i).getFunTeam().equalsIgnoreCase("Fenerbahce"))
             imageViewTeam.setImageResource(R.drawable.fb);
-        else if(mPersonModelList.get(i).getFunTeam().equalsIgnoreCase("cincon"))
+        else if(mPersonModelList.get(i).getFunTeam().equalsIgnoreCase("Galatasaray"))
             imageViewTeam.setImageResource(R.drawable.gs);
-        else if(mPersonModelList.get(i).getFunTeam().equalsIgnoreCase("beşiktaş"))
-            imageViewTeam.setImageResource(R.drawable.besiktas);
-        else if(mPersonModelList.get(i).getFunTeam().equalsIgnoreCase("karşı yaka"))
+        else if(mPersonModelList.get(i).getFunTeam().equalsIgnoreCase("Karsiyaka"))
             imageViewTeam.setImageResource(R.drawable.kyaka);
-        else if(mPersonModelList.get(i).getFunTeam().equalsIgnoreCase("göztepe"))
+        else if(mPersonModelList.get(i).getFunTeam().equalsIgnoreCase("Goztepe"))
             imageViewTeam.setImageResource(R.drawable.goztepe);
         else
             imageViewTeam.setImageResource(R.mipmap.ic_launcher);
