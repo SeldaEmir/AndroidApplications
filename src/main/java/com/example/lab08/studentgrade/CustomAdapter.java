@@ -44,11 +44,13 @@ public class CustomAdapter extends BaseAdapter {
         TextView textViewName=(TextView)view.findViewById(R.id.textViewName);
         TextView textViewStudentNumber=(TextView)view.findViewById(R.id.textViewStudentNumber);
         TextView textViewGrade=(TextView)view.findViewById(R.id.textViewGrade);
+        TextView textViewLesson =(TextView)view.findViewById(R.id.textViewLesson);
         ImageView imageViewGender=(ImageView)view.findViewById(R.id.imageViewGenderLogo);
 
 
         textViewName.setText(mPersonModelList.get(i).getName());
-        textViewStudentNumber.setText(mPersonModelList.get(i).getstudentNumber ());
+        textViewStudentNumber.setText(mPersonModelList.get(i).getStudentNumber ());
+        textViewLesson.setText(mPersonModelList.get(i).getLesson());
         textViewGrade.setText(mPersonModelList.get(i).getGrade());
 
 
