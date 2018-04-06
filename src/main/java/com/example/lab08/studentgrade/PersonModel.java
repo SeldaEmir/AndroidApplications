@@ -13,7 +13,7 @@ public class PersonModel {
 
 
 
-    public PersonModel(String gender, String name, String studentNumber, String lesson, String grade) {
+    public PersonModel(String gender, String name, String studentNumber, String grade,String lesson) {
         this.gender = gender;
         this.name = name;
         this.studentNumber = studentNumber;
@@ -38,11 +38,11 @@ public class PersonModel {
         this.name = name;
     }
 
-    public String getstudentNumber() {
+    public String getStudentNumber() {
         return studentNumber;
     }
 
-    public void setstudentNumber(String studentNumber) {
+    public void setStudentNumber(String studentNumber) {
         this.studentNumber = studentNumber;
     }
 

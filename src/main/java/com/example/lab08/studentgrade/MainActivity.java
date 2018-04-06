@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
                 gender = "male";
             }
 
-            personModelList.add(new PersonModel(gender,editTextName.getText().toString(),stringSelectedTeam,editTextStudentNumber.getText().toString(),editTextGrade.getText().toString()));
+            personModelList.add(new PersonModel(gender,editTextName.getText().toString(),editTextStudentNumber.getText().toString(),editTextGrade.getText().toString(),stringSelectedTeam));
             showList();
             snackMessage="Person added";
         }
