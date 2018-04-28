@@ -21,4 +21,7 @@ This applications take information about user and create a list from this inform
 <b> <i>3. MyFoodNotes </i></b>
 
 MyFoodNotes application is a diary of places where you go for eating. You can evaulate places, foods or drinks with ratings and comments. Therefore, you can remember your experiences and the next times you can make plans according the your rating and comments.
+  
   <i><u>Screenshots:</u></i>
+  
+ <img src="AndroidStudioProjects/MyFoodNotes/images/Screenshot_1524920684.png" width="150" height="280"> <img src="AndroidStudioProjects/MyFoodNotes/images/Screenshot_1524920875.png" width="150" height="280"> <img src="AndroidStudioProjects/MyFoodNotes/images/Screenshot_1524920885.png" width="150" height="280">img src="AndroidStudioProjects/MyFoodNotes/images/Screenshot_1524921039.png" width="150" height="280"> <img src="AndroidStudioProjects/MyFoodNotes/images/Screenshot_1524921045.png" width="150" height="280"> <img src="AndroidStudioProjects/MyFoodNotes/images/Screenshot_1524921067.png" width="150" height="280">
