@@ -25,6 +25,6 @@ MyFoodNotes application is a diary of places where you go for eating. You can ev
   <i><u>Screenshots:</u></i>
   
 <img src="AndroidStudioProjects/MyFoodNotes/images/Screenshot_1524920684.png" width="150" height="280"> <img src="AndroidStudioProjects/MyFoodNotes/images/Screenshot_1524920829.png" width="150" height="280"> <img src="AndroidStudioProjects/MyFoodNotes/images/Screenshot_1524920875.png" width="150" height="280"> <img src="AndroidStudioProjects/MyFoodNotes/images/Screenshot_1524920885.png" width="150" height="280"> <img src="AndroidStudioProjects/MyFoodNotes/images/Screenshot_1524921013.png" width="150" height="280"> 
-  <br>
+  </br>
 <img src="AndroidStudioProjects/MyFoodNotes/images/Screenshot_1524921045.png" width="150" height="280"> <img src="AndroidStudioProjects/MyFoodNotes/images/Screenshot_1524921067.png" width="150" height="280"> <img src="AndroidStudioProjects/MyFoodNotes/images/Screenshot_1524921090.png" width="150" height="280"></br>
   
