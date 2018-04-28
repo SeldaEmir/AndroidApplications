@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextUpdatePlacesName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Mekan İsmi Girin"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextUpdatePlacesLoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="lokasyonu ekleyin"
+        android:inputType="textPersonName" />
+
+    <CheckBox
+        android:id="@+id/checkBoxUpdateLike"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Beğendinizmi" />
+
+    <Button
+        android:id="@+id/buttonUpdateImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/ic_menu_camera"
+        android:text="" />
+
+    <Button
+        android:id="@+id/buttonUpdatePlaces"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GÜNCELLE" />
+
+</LinearLayout>
