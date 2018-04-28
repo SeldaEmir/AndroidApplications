@@ -1,0 +1,46 @@
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="run-configuration-type">
+      <project id="MyFoodNotes" values="AndroidRunConfigurationType" collectionTime="1524930041138" />
+    </group>
+    <group name="module type">
+      <project id="MyFoodNotes" values="JAVA_MODULE" collectionTime="1524930041138" />
+    </group>
+    <group name="file-type">
+      <project id="MyFoodNotes" values="ProGuard File,Images,Properties,UNKNOWN,JSON,Groovy,JAVA,XML,PLAIN_TEXT,ARCHIVE,IDEA_MODULE" collectionTime="1524930042159" />
+    </group>
+    <group name="images.ide.background">
+      <project id="MyFoodNotes" values="frame=0,editor=0" collectionTime="1524930042393" />
+    </group>
+    <group name="module-language-level">
+      <project id="MyFoodNotes" values="JDK_1_7" collectionTime="1524930043688" />
+    </group>
+    <group name="Git">
+      <project id="MyFoodNotes" values="config.save.policy.STASH,config.push.autoupdate.disabled,config.warn.about.crlf.enabled,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED,config.ssh.enabled,config.cherry-pick.autocommit.disabled,config.update.type.BRANCH_DEFAULT,config.push.update.all.roots.enabled,config.force.push.enabled" collectionTime="1524930043694" />
+    </group>
+    <group name="frameworks">
+      <project id="MyFoodNotes" values="android,java-gradle,android-gradle" collectionTime="1524930041122" />
+    </group>
+    <group name="vcs-options">
+      <project id="MyFoodNotes" values="perform.commit.in.background.enabled,commit.before.optimize.imports.disabled,perform.add_remove.in.background.enabled,commit.before.check.todo.enabled,commit.use.right.margin.enabled,offer.remove.empty.changelist.show_confirmation,commit.before.check.code.cleanup.disabled,show.changes.preview.disabled,commit.before.reformat.file.disabled,commit.clear.initial.comment.disabled,offer.move.partially.committed.disabled,commit.before.check.non.empty.comment.disabled,include.text.into.shelf.enabled,changelist.make.new.active.disabled,perform.edit.in.background.enabled,perform.update.in.background.enabled,commit.before.check.code.smell.enabled,perform.rollback.in.background.disabled,offer.move.failed.committed.do_nothing_silently,changelist.preselect.existing.disabled,commit.before.check.files.up.to.date.disabled,check.conflicts.in.background.disabled,commit.before.rearrange.disabled,commit.before.reformat.project.disabled,perform.checkout.in.background.enabled,commit.show.unversioned.enabled" collectionTime="1524930041122" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="StripeButton[Android_Profiler].hidden" count="14" />
+      <entry feature="StripeButton[Android_Profiler].shown" count="9" />
+      <entry feature="StripeButton[Version_Control].shown" count="4" />
+      <entry feature="diff.DirDiffTableModel" count="1" />
+      <entry feature="diff.DirDiffViewer" count="1" />
+      <entry feature="execute.AndroidRunConfigurationType.Debug" count="3" />
+      <entry feature="execute.AndroidRunConfigurationType.Run" count="109" />
+      <entry feature="git.branch.checkout.local" count="1" />
+      <entry feature="git.branch.create.new" count="4" />
+      <entry feature="ide.settings.Schemas_and_DTDs" count="1" />
+      <entry feature="ideaapp.started" count="14" />
+      <entry feature="welcome.screen.WelcomeScreen.CreateNewProject" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.ImportProject" count="2" />
+      <entry feature="welcome.screen.WelcomeScreen.OpenProject" count="1" />
+    </counts>
+  </component>
+</application>

@@ -1,8 +1,9 @@
 package com.example.selda.customlist;
 
+import java.io.Serializable;
 
 
-public class PersonModel {
+public class PersonModel implements Serializable {
     String gender;
     String name;
     String age;

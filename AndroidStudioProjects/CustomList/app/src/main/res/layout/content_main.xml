@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.selda.customlist.MainActivity"
+    tools:context="com.serifgungor.customlist.MainActivity"
     tools:showIn="@layout/activity_main"
     tools:layout_editor_absoluteY="81dp"
     tools:layout_editor_absoluteX="0dp">
@@ -17,7 +17,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text=""
-        android:hint="Name"
+        android:hint="isim girin"
         tools:layout_constraintTop_creator="1"
         android:layout_marginStart="3dp"
         android:layout_marginTop="2dp"
@@ -32,7 +32,7 @@
         android:ems="10"
         android:inputType="number"
         android:text=""
-        android:hint="Age"
+        android:hint="yaşını girin"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         app:layout_constraintRight_toRightOf="@+id/editTextName"
@@ -47,7 +47,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text=""
-        android:hint="Country"
+        android:hint="memleketini girin"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         app:layout_constraintRight_toRightOf="@+id/editTextAge"
@@ -68,13 +68,13 @@
         android:id="@+id/radioButtonMale"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Male"
+        android:text="male"
          />
     <RadioButton
         android:id="@+id/radioButtonFemale"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Female" />
+        android:text="female" />
 </RadioGroup>
 
     <Spinner
@@ -108,7 +108,7 @@
         android:id="@+id/checkBoxGraduated"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Graduated ?"
+        android:text="Lisans Mezunu"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintBottom_creator="1"
@@ -117,5 +117,7 @@
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginTop="19dp"
         app:layout_constraintTop_toBottomOf="@+id/spinnerTeams"
-        android:layout_marginBottom="11dp" />
+        android:layout_marginBottom="11dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintVertical_bias="0.0" />
 </android.support.constraint.ConstraintLayout>

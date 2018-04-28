@@ -17,6 +17,7 @@ public class CustomAdapter extends BaseAdapter {
     List<PersonModel>mPersonModelList;
     LayoutInflater layoutInflater;
 
+
     public CustomAdapter(Activity activity,List<PersonModel> mPersonModelList) {
         this.mPersonModelList = mPersonModelList;
         layoutInflater=(LayoutInflater)activity.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -59,13 +60,14 @@ public class CustomAdapter extends BaseAdapter {
         else
             imageViewGender.setImageResource(R.drawable.erkek);
 
-        if (mPersonModelList.get(i).getFunTeam().equalsIgnoreCase("Fenerbahce"))
+        if (mPersonModelList.get(i).getFunTeam().equalsIgnoreCase("fenerbahçe"))
             imageViewTeam.setImageResource(R.drawable.fb);
-        else if(mPersonModelList.get(i).getFunTeam().equalsIgnoreCase("Galatasaray"))
+        else if(mPersonModelList.get(i).getFunTeam().equalsIgnoreCase("cincon"))
             imageViewTeam.setImageResource(R.drawable.gs);
-        else if(mPersonModelList.get(i).getFunTeam().equalsIgnoreCase("Karsiyaka"))
+
+        else if(mPersonModelList.get(i).getFunTeam().equalsIgnoreCase("karşı yaka"))
             imageViewTeam.setImageResource(R.drawable.kyaka);
-        else if(mPersonModelList.get(i).getFunTeam().equalsIgnoreCase("Goztepe"))
+        else if(mPersonModelList.get(i).getFunTeam().equalsIgnoreCase("göztepe"))
             imageViewTeam.setImageResource(R.drawable.goztepe);
         else
             imageViewTeam.setImageResource(R.mipmap.ic_launcher);

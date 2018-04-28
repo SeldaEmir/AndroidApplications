@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextUpdateProdcutName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Food/Drink"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextUpdateProductPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Price?"
+        android:inputType="numberDecimal" />
+
+    <CheckBox
+        android:id="@+id/checkBoxUpdateProductLike"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Did You Like?" />
+
+    <Button
+        android:id="@+id/buttonUpdateProductImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/ic_menu_camera"
+        android:text="" />
+
+    <Button
+        android:id="@+id/buttonUpdateProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update" />
+
+</LinearLayout>

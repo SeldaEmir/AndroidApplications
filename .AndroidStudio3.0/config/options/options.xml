@@ -1,0 +1,50 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="AndroidInitConfigurator.V5" value="true" />
+    <property name="AndroidInitConfigurator.V3" value="true" />
+    <property name="AndroidInitConfigurator.V1" value="true" />
+    <property name="installed.kotlin.plugin.version" value="1.1.51-release-Studio3.0-1" />
+    <property name="android-component-compatibility-check" value="1524491349620" />
+    <property name="Default.savedEditorTheme" value="_@user_Default" />
+    <property name="lastTip" value="4" />
+    <property name="newly.installed.api.level" value="22" />
+    <property name="file.gist.reindex.count" value="695" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.LEFT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.PALETTE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.SPLIT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.SPLIT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.TOOL_ORDER" value="PROPERTIES,PALETTE,COMPONENT_TREE" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.TOOL_ORDER" value="PROPERTIES,PALETTE,COMPONENT_TREE" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.LEFT.UNSCALED.WIDTH" value="225" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.RIGHT.UNSCALED.WIDTH" value="225" />
+    <property name="palette.category.width" value="100" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Preview.PALETTE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.Preview.PALETTE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Preview.PALETTE.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Preview.PALETTE.AUTO_HIDE" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.Preview.PALETTE.AUTO_HIDE" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Preview.TOOL_ORDER" value="PALETTE" />
+    <property name="ATTACHED_TOOL_WINDOW.Preview.TOOL_ORDER" value="PALETTE" />
+    <property name="ATTACHED_TOOL_WINDOW.Preview.LEFT.UNSCALED.WIDTH" value="225" />
+    <property name="ATTACHED_TOOL_WINDOW.Preview.RIGHT.UNSCALED.WIDTH" value="225" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/AndroidStudioProjects/MyFoodNotes&#10;C:/Users/selda/AndroidStudioProjects/NeredeNeYedim&#10;C:/Users/selda/AndroidStudioProjects/AndroidApplications&#10;C:/Users/selda/AndroidStudioProjects/neredeneyedim&#10;C:/Users/selda/AndroidStudioProjects/Yeni WinRAR arşivi/NeredeNeYedim&#10;C:/Users/selda/AndroidStudioProjects/ScientificCalculator&#10;C:/Users/selda/AndroidStudioProjects/FirstApplication&#10;C:/Users/selda/AndroidStudioProjects/Calculator" />
+    <property name="MobileminApi" value="21" />
+    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.6126878" />
+    <property name="com.intellij.history.integration.ui.views.FileHistoryDialog.0" value="300" />
+    <property name="com.intellij.diagnostic.IdeErrorsDialogactiveTab" value="0" />
+    <property name="dir.diff.panel.divider.location" value="111" />
+    <property name="last.imported.location" value="$USER_HOME$/AndroidStudioProjects/NeredeNeYedim" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="AndroidEnableDdms" value="true" />
+    <property name="create.project.preferred.importer" value="Existing Sources" />
+    <property name="AndroidPlatformName" value="Android API 27 Platform" />
+  </component>
+</application>
